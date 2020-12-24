@@ -20,7 +20,7 @@ resource "azurerm_app_service_plan" "main" {
 
   sku {
     tier = "Basic"
-    size = "B2"
+    size = "B1"
   }
 }
 
